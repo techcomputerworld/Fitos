@@ -1,0 +1,39 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <h1>Lista de fitosanitarios</h1>
+            <p>Con nombre, tipo de fitosanitario, descripción e imágenes </p>
+        </div>
+        <div class="col-md-6">
+            <p>imagen de fitosanitarios</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <table id="tblArticulos" class="table table-striped table-bordered" style="width:100%;">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Nombre</th>
+                        <th>Tipo</th>
+                        <th>Descripcion</th>
+                        <th>urlImagen1</th>
+                        <th>urlImagen2</th>
+                    </tr>
+
+                </thead>
+
+            </table>
+        </div>
+    </div>
+</div>
+@section Scripts{
+    <script src="~/js/fitos.js"></script>
+}
+
